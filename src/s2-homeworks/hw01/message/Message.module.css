@@ -1,17 +1,17 @@
 .message {
-
+color: #00cc22;
 }
 
 .imageAndText {
-
+    color: #00cc22
 }
 
 .imageAndText img {
-
+    color: #00cc22
 }
 
 .text {
-
+    color: #00cc22
 }
 
 .text:after {
@@ -23,7 +23,7 @@
 }
 
 .messageText {
-
+    color: #00cc22
 }
 
 .time {
