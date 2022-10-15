@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Message.module.css'
 import {MessageType} from "../HW1";
-
+import {message0} from "../HW1";
 // нужно создать правильный тип вместо  any
 export type MessagePropsType = {
     message: MessageType
@@ -21,7 +21,7 @@ const Message = (props: MessagePropsType) => {
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
-                       Virgil
+
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                      Как дела
