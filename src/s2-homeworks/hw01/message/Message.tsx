@@ -21,7 +21,7 @@ const Message = (props: MessagePropsType) => {
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
-                        Привет
+                       Virgil
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                      Как дела

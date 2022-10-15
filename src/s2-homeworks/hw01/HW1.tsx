@@ -18,7 +18,7 @@ export type MessageType = {
 id: number
 
 user: {
-    avatar: any
+    avatar: string
     name: string
 }
 message: {
