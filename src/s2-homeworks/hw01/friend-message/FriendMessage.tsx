@@ -7,7 +7,7 @@ import {friendMessage0} from "../HW1";
 const FriendMessage = (props: MessagePropsType) => {
     return (
         <div
-            id={'hw1-friend-message-' + props.message.user.avatar}
+            id={props.message.user.avatar}
             className={s.friendMessage}
         >
             <div className={s.friendImageAndText}>
@@ -15,13 +15,13 @@ const FriendMessage = (props: MessagePropsType) => {
                 />
                 <div className={s.friendText}>
                     <div
-                        id={'hw1-friend-name-' + props.message.user.name}
+                        id={props.message.user.name}
                         className={s.friendName}
                     >
                         {friendMessage0.user.name}
                     </div>
                     <pre
-                        id={'hw1-friend-text-' + props.message.message.text}
+                        id={props.message.message.text}
                         className={s.friendMessageText}
                     >
                         {friendMessage0.message.text}
@@ -29,7 +29,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 </div>
             </div>
             <div
-                id={'hw1-friend-time-' + props.message.message.time}
+                id={props.message.message.time}
                 className={s.friendTime}
             >
                 {friendMessage0.message.time}
