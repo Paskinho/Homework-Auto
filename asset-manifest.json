@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/Homework22/static/css/main.9b9b4765.css",
-    "main.js": "/github.io/Homework22/static/js/main.999842c9.js",
-    "static/js/787.66cb4309.chunk.js": "/github.io/Homework22/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/github.io/Homework22/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/github.io/Homework22/index.html",
-    "main.9b9b4765.css.map": "/github.io/Homework22/static/css/main.9b9b4765.css.map",
-    "main.999842c9.js.map": "/github.io/Homework22/static/js/main.999842c9.js.map",
-    "787.66cb4309.chunk.js.map": "/github.io/Homework22/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/Homework22/static/css/main.9b9b4765.css",
+    "main.js": "/Homework22/static/js/main.99135345.js",
+    "static/js/787.66cb4309.chunk.js": "/Homework22/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/Homework22/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/Homework22/index.html",
+    "main.9b9b4765.css.map": "/Homework22/static/css/main.9b9b4765.css.map",
+    "main.99135345.js.map": "/Homework22/static/js/main.99135345.js.map",
+    "787.66cb4309.chunk.js.map": "/Homework22/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b9b4765.css",
-    "static/js/main.999842c9.js"
+    "static/js/main.99135345.js"
   ]
 }
