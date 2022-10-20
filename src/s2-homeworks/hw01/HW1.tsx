@@ -25,7 +25,6 @@ message: {
     text: string
     time: string
 }
-
 }
 
 // структуру объекта не менять
