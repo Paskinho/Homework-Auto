@@ -49,15 +49,15 @@ else if (filter === "low") {
     return affairs.filter(p => p.priority === "low")
 }
 
-
-
 }
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => { // need to fix any
-    return affairs.filter(d => d._id !== _id)
+
+
+export const deleteAffair = (affairs: Array<AffairType>, id: number): Array<AffairType> => { // need to fix any
+    return affairs.filter(d => d._id !== id)
 }
 
 function HW2() {
-    const [affairs, setAffairs] = useState<any>(defaultAffairs) // need to fix any
+    const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs) // need to fix any
     const [filter, setFilter] = useState<FilterType>('all')
 
     const filteredAffairs = filterAffairs(affairs, filter)
