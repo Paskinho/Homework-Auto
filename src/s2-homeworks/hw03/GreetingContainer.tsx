@@ -3,6 +3,7 @@ import Greeting from './Greeting'
 import { UserType } from './HW3'
 import {Simulate} from "react-dom/test-utils";
 import error = Simulate.error;
+import {totalmem} from "os";
 
 type GreetingContainerPropsType = {
     users: Array<UserType>// need to fix any
@@ -63,8 +64,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureOnEnter(e, addUser)
     }
 
-    const totalUsers = 0 // need to fix
-    const lastUserName = 'Virgil' // need to fix
+    const totalUsers = users.length // need to fix
+    const lastUserName = users.at(-1) // need to fix
 
     return (
         <Greeting
