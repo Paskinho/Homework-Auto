@@ -10,7 +10,7 @@ type GreetingPropsType = {
     onEnter:(e: KeyboardEvent) => void // need to fix any
     error: string // need to fix any
     totalUsers: number // need to fix any
-    lastUserName: UserType// need to fix any
+    lastUser?: UserType// need to fix any
 }
 
 // презентационная компонента (для верстальщика)
@@ -23,7 +23,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         onBlur,
         error,
         totalUsers,
-        lastUserName,
+        lastUser,
     } // деструктуризация пропсов
 ) => {
     const inputClass = s.errorInput // need to fix with (?:)
@@ -62,9 +62,9 @@ const Greeting: React.FC<GreetingPropsType> = (
                 </button>
             </div>
 
-            {lastUserName && (
+            {lastUser && (
                 <div className={s.greeting}>
-                   Hello <span id={'hw3-last-user'}>{lastUserName}</span>!
+                   Hello!<span id={'hw3-last-user'}>{lastUser.name}</span>
                 </div>
             )}
         </div>

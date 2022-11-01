@@ -65,7 +65,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     }
 
     const totalUsers = users.length // need to fix
-    const lastUserName = users.at(-1) // need to fix
+    const lastUser = users.at(-1) // need to fix
 
     return (
         <Greeting
@@ -76,7 +76,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
             onEnter={onEnter}
             error={error}
             totalUsers={totalUsers}
-            lastUserName={lastUserName}
+            lastUser={lastUser}
         />
     )
 }
