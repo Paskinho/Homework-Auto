@@ -77,6 +77,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
             error={error}
             totalUsers={totalUsers}
             lastUser={lastUser}
+
         />
     )
 }
