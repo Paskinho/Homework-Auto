@@ -5,7 +5,23 @@
 }
 
 .input {
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    left: 104px;
+    top: 176px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #0080FF;
 }
+
 
 .pen {
 }
