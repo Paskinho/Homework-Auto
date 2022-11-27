@@ -1,7 +1,14 @@
 .spanBlock {
+    color: gold;
+    display: inline-block;
 }
 
 .span {
+    color: black;
+    display: inline-block;
+    height: 31px;
+    padding-top: 10px;
+    cursor: pointer;
 }
 
 .input {
@@ -24,4 +31,5 @@
 
 
 .pen {
+    color: gold
 }
