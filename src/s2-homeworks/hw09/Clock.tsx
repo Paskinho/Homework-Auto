@@ -18,16 +18,19 @@ function Clock() {
     }
 
     const stop = () => {
+
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
         clearInterval(timerId)
         setTimerId(undefined)
     }
 
-    const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
+    const onMouseEnter = () => {
+        setShow(true)
+        // пишут студенты // показать дату если наведена мышка
 
     }
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
-
+        setShow(false)
     }
 
     const stringTime = 'date->time' || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
