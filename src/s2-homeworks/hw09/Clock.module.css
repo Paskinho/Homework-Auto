@@ -1,7 +1,9 @@
 .buttonsContainer {
+    background-color: #0059b3;
 }
 
 .clock {
+    color: black
 }
 
 .watch {
@@ -11,4 +13,5 @@
 }
 
 .more {
+
 }
