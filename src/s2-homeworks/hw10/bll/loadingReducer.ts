@@ -2,8 +2,13 @@ const initState = {
     isLoading: false,
 }
 
-export const loadingReducer = (state = initState, action: LoadingActionType) => { // fix any
+export type InitStateType = typeof initState
+
+export const loadingReducer = (state = initState, action: LoadingActionType): InitStateType => { // fix any
     switch (action.type) {
+        case "CHANGE_LOADING": {
+            return {isLoading: action.isLoading}
+            }
         // пишет студент  // need to fix
 
         default:
