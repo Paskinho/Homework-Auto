@@ -20,8 +20,8 @@ const HW10 = () => {
 
     const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
         // dispatch
-
-        // setTimeout
+        dispatch(loadingAC(!isLoading))
+        setTimeout(()=>dispatch(loadingAC(isLoading)), 1500)
     }
 
     return (
