@@ -5,4 +5,10 @@
 }
 
 .number {
+        color: yellowgreen;
+        font-weight: bolder;
+}
+
+.slider {
+        color: darkgoldenrod;
 }
