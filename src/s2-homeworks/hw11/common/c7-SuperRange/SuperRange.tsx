@@ -1,5 +1,6 @@
 import React from 'react'
 import {Slider, SliderProps} from '@mui/material'
+import style from '../../HW11.module.css'
 
 const SuperRange: React.FC<SliderProps> = (props) => {
     return (
