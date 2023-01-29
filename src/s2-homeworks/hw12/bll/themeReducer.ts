@@ -20,8 +20,6 @@ return {...state, themeId: action.id}
         }
 
 
-        // дописать
-
         default:
             return state
     }
