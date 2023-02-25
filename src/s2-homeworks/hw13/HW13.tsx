@@ -37,7 +37,7 @@ const HW13 = () => {
                 setCode('Код 200!')
                 setImage(success200)
                 setText(res.data.errorText)
-                setInfo('...loading')
+                setInfo(res.data.info)
                 // дописать
 
             })
