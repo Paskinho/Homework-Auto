@@ -57,8 +57,8 @@ const HW13 = () => {
                 else {
                     setCode('Неизвестная ошибка!')
                     setImage(errorUnknown)
-                    setText(e.response.data.errorText)
-                    setInfo(e.response.data.info)
+                    setText(e.message)
+                    setInfo(e.name)
                 }
                 // дописать
 
