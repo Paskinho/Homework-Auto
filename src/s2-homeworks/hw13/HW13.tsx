@@ -36,13 +36,13 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText('Hello')
+                setText(res.data.errorText)
                 setInfo('...loading')
                 // дописать
 
             })
             .catch((e) => {
-                alert('ERROR!')
+
                 // дописать
 
             })
@@ -58,6 +58,7 @@ const HW13 = () => {
                         id={'hw13-send-true'}
                         onClick={send(true)}
                         xType={'secondary'}
+                        disabled={axios.post === axios.get}
                         // дописать
 
                     >
