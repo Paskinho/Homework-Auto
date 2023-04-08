@@ -86,14 +86,14 @@ const HW15 = () => {
         setSort(newSort)
         // setSort(
         // setPage(1) // при сортировке сбрасывать на 1 страницу
-setPage(1)
+        setPage(1)
         // sendQuery(
         // setSearchParams(
         sendQuery({page, count, sort: newSort})
-        const newFind: {page?: string, sort?: string} = sort ? {sort: newSort} : {}
+        const newFind: { page?: string, sort?: string } = sort ? {sort: newSort} : {}
         const {find, ...restQueries} = Object.fromEntries(searchParams)
         setSearchParams({...newFind, ...restQueries})
-        //
+
     }
 
     useEffect(() => {
